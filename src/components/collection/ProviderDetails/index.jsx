@@ -1,6 +1,6 @@
-import InformationBar from './InformationBar'
-import ProviderNameAndDescription from './ProviderNameAndDescription'
-import SearchBarAndIcons from './SearchBarAndIcons'
+import InformationBar from '../InformationBar'
+import ProviderNameAndDescription from '../ProviderNameAndDescription'
+import SearchBarAndIcons from '../SearchBarAndIcons'
 
 const ProviderDetailsMobile = () => {
   return (

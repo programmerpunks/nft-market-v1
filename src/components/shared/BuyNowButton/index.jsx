@@ -1,4 +1,4 @@
-import GeneralButton from "./GeneralButton"
+import GeneralButton from "../GeneralButton"
 
 const BuyNowButton = ({ button_style, p_style }) => {
   return (

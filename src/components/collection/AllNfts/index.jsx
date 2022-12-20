@@ -1,4 +1,4 @@
-import NftCard from "./NftCard"
+import NftCard from "../NftCard"
 
 const AllNfts = ({ nfts }) => {
   

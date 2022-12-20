@@ -1,8 +1,8 @@
 import React from 'react'
-const pic1 = require('../../images/download (1).svg').default;
-const pic2 = require('../../images/download (2).svg').default;
-const pic3 = require('../../images/download (3).svg').default;
-const pic4 = require('../../images/download.svg').default;
+const pic1 = require('../../../images/download (1).svg').default;
+const pic2 = require('../../../images/download (2).svg').default;
+const pic3 = require('../../../images/download (3).svg').default;
+const pic4 = require('../../../images/download.svg').default;
 export default function Description({data}) {
   return (
     <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 text-center">

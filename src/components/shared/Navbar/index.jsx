@@ -3,8 +3,8 @@ import { MdOutlineLightMode } from "react-icons/md";
 import { TbMoon } from "react-icons/tb";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { actionCreators } from "../states";
-import GeneralButton from "./GeneralButton";
+import { actionCreators } from "../../../states";
+import GeneralButton from "../GeneralButton";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {

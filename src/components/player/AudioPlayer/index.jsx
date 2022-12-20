@@ -6,7 +6,7 @@ import {
 } from 'react-icons/ai'
 import { HiPlay, HiPause } from 'react-icons/hi2'
 
-import jaxImg from '../../images/jax.png'
+import jaxImg from '../../../images/jax.png'
 import { useState } from 'react'
 
 const AudioPlayer = () => {

@@ -1,4 +1,4 @@
-import GeneralButton from "../../../GeneralButton";
+import GeneralButton from "../../shared/GeneralButton";
 
 import { Link } from "react-router-dom";
 

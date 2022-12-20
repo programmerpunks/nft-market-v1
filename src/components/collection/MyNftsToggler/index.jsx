@@ -1,4 +1,4 @@
-import BidsAndOffers from "./BidsAndOffers"
+import BidsAndOffers from "../BidsAndOffers"
 
 const MyNftsToggler = ({ myNftsSelectorTab, setMyNftsSelectorTab }) => {
   const handleMyNftsTogglerClick = () => {

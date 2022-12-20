@@ -1,5 +1,5 @@
 import React from "react";
-const pic = require("../../images/eth.svg").default;
+const pic = require("../../../images/eth.svg").default;
 export default function TokenActivity() {
   return (
     <div className="col-span-full rounded-2xl border border-gray-300 bg-white p-6 dark:border-neutral-600 dark:bg-black ">

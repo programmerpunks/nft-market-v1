@@ -3,9 +3,9 @@ import { RxCross2 } from 'react-icons/rx'
 
 import { useState } from 'react'
 
-import AddToCartButton from '../AddToCartButton'
-import BuyNowButton from '../BuyNowButton'
-import ModalComponent from './modal/ModalComponent'
+import AddToCartButton from '../../shared/AddToCartButton'
+import BuyNowButton from '../../shared/BuyNowButton'
+import ModalComponent from '../ModalComponent'
 import { useSelector } from 'react-redux'
 
 const NftCard = ({ nft }) => {
