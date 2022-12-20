@@ -48,7 +48,7 @@ const ModalComponent = ({
           </div>
           <div className='space-y-4'>
             <Link to="/details">
-              <button className="w-full sm:text-lg text-sm font-medium text-center bg-white border border-black rounded-md hover:font-extrabold dark:bg-neutral-800 dark:text-white dark:border-white">
+              <button className="w-full sm:text-lg text-sm font-medium text-center bg-white border text-black border-black rounded-md hover:font-extrabold dark:bg-neutral-800 dark:text-white dark:border-white">
                 <p className=" px-5 py-3">View full details</p>
               </button>
             </Link>

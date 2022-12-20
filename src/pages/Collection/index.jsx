@@ -14,7 +14,6 @@ const Collection = () => {
   return (
     <div className='space-y-5 text-sm'>
       <ProviderDetails />
-      {/* <ProviderDetails /> */}
       <NftSelector 
         selectorTab={selectorTab}
         setSelectorTab={setSelectorTab}
