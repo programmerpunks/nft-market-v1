@@ -1,6 +1,6 @@
-import GeneralButton from "../../shared/GeneralButton";
+import GeneralButton from '../../shared/GeneralButton'
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 const ModalComponent = ({
   nft: { provider, currentOwner, name, token_id, price, img, property },
@@ -32,7 +32,7 @@ const ModalComponent = ({
                     <span>{single_property[1]}</span>
                   </p>
                 </div>
-              );
+              )
             })}
           </div>
           <p className="text-lg">
@@ -40,23 +40,28 @@ const ModalComponent = ({
           </p>
           <div>
             <p className="text-gray-600 text-sm dark:text-white/75">
-              {price ? "Price" : "Market status"}
+              {price ? 'Price' : 'Market status'}
             </p>
             <p className="text-2xl font-medium">
-              {price ? price : "Not for Sale"}
+              {price ? price : 'Not for Sale'}
             </p>
           </div>
+          <div className='space-y-4'>
+            <Link to="/details">
+              <button className="w-full sm:text-lg text-sm font-medium text-center bg-white border border-black rounded-md hover:font-extrabold dark:bg-neutral-800 dark:text-white dark:border-white">
+                <p className=" px-5 py-3">View full details</p>
+              </button>
+            </Link>
 
-           <Link to="/details"><button className="w-full sm:text-lg text-sm font-medium text-center bg-white border border-black rounded-md hover:font-extrabold dark:bg-neutral-800 dark:text-white dark:border-white"> <p className=" px-5 py-3">View full details</p></button></Link>
-
-          <GeneralButton
-            text="Place a bid"
-            button_style="w-full sm:text-lg text-sm font-medium text-center bg-white border border-black rounded-md text-gray-600 hover:font-extrabold dark:bg-neutral-800 dark:text-white/75 dark:border-white"
-            p_style="px-5 py-3"
-          />
+            <GeneralButton
+              text="Place a bid"
+              button_style="w-full sm:text-lg text-sm font-medium text-center bg-white border border-black rounded-md text-gray-600 hover:font-extrabold dark:bg-neutral-800 dark:text-white/75 dark:border-white"
+              p_style="px-5 py-3"
+            />
+          </div>
         </div>
       </div>
     </div>
-  );
-};
-export default ModalComponent;
+  )
+}
+export default ModalComponent

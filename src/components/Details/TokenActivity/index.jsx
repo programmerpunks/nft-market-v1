@@ -2,7 +2,7 @@ import React from "react";
 const pic = require("../../../images/eth.svg").default;
 const TokenActivity =() => {
   return (
-    <div className="col-span-full rounded-2xl border border-gray-300 bg-white p-6 dark:border-neutral-600 dark:bg-black ">
+    <div className="col-span-full rounded-2xl border border-gray-300 bg-white p-6 dark:border-neutral-600 dark:bg-neutral-800">
       <div className="reservoir-h5 font-headings dark:text-white">
         Token Activity
       </div>
