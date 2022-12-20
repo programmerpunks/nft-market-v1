@@ -3,16 +3,17 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  darkMode: 'class',
+
+  darkMode: "class",
   theme: {
     extend: {
       screens: {
-        mb: '275px',
+        mb: "275px",
       },
       fontFamily: {
-        roboto: ['roboto']
-      }
+        roboto: ["roboto"],
+      },
     },
   },
   plugins: [],
-}
+};
