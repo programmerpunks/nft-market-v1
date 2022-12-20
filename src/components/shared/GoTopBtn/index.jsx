@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
 import { MdKeyboardArrowUp } from "react-icons/md";
+import { useEffect, useState } from "react";
 
 const GoTopBtn = () => {
   const [isVisible, setisVisible] = useState(false);

@@ -1,31 +1,30 @@
-import { VscChromeMinimize } from 'react-icons/vsc'
 import {
   AiFillStepBackward,
   AiFillStepForward,
   AiOutlinePlus,
-} from 'react-icons/ai'
-import { HiPlay, HiPause } from 'react-icons/hi2'
-
-import jaxImg from '../../../images/jax.png'
-import { useState } from 'react'
+} from "react-icons/ai";
+import { HiPlay, HiPause } from "react-icons/hi2";
+import jaxImg from "../../../images/jax.png";
+import { useState } from "react";
+import { VscChromeMinimize } from "react-icons/vsc";
 
 const AudioPlayer = () => {
-  const [minimizeBtn, setMinimizeBtn] = useState(true)
-  const [play, setPlay] = useState(false)
+  const [minimizeBtn, setMinimizeBtn] = useState(true);
+  const [play, setPlay] = useState(false);
   const toggleMinimize = () => {
     if (minimizeBtn) {
       document
-        .getElementById('player')
-        .removeEventListener('click', () => toggleMinimize())
-      document.getElementById('player-details').classList.remove('hidden')
+        .getElementById("player")
+        .removeEventListener("click", () => toggleMinimize());
+      document.getElementById("player-details").classList.remove("hidden");
     } else {
       document
-        .getElementById('player')
-        .addEventListener('click', () => toggleMinimize())
-      document.getElementById('player-details').classList.add('hidden')
+        .getElementById("player")
+        .addEventListener("click", () => toggleMinimize());
+      document.getElementById("player-details").classList.add("hidden");
     }
-    setMinimizeBtn(!minimizeBtn)
-  }
+    setMinimizeBtn(!minimizeBtn);
+  };
   return (
     <div className="hidden lg:block fixed bottom-8 left-0 px-8 z-70">
       <div className="relative duration-100">
@@ -47,7 +46,7 @@ const AudioPlayer = () => {
           title="Nuclear Lethargy by Lane 8"
           className="duration-300 bg-slate-200  h-14 shadow-md  flex  rounded-md relative dark:bg-neutral-700"
         >
-          <div id="player" onClick={() => toggleMinimize()} className='flex'>
+          <div id="player" onClick={() => toggleMinimize()} className="flex">
             <img
               className=" transform duration-200  h-20 -translate-y-6 hover:h-24 hover:-translate-y-10"
               src={jaxImg}
@@ -92,6 +91,6 @@ const AudioPlayer = () => {
         </div>
       </div>
     </div>
-  )
-}
-export default AudioPlayer
+  );
+};
+export default AudioPlayer;

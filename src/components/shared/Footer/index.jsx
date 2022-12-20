@@ -1,4 +1,3 @@
-import React from 'react'
 import { BsMedium, BsTwitter } from 'react-icons/bs'
 import { SiDiscord } from 'react-icons/si'
 

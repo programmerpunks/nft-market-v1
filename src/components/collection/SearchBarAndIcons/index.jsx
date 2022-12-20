@@ -1,8 +1,8 @@
 import { BsInfo, BsClockHistory } from 'react-icons/bs'
 import { IoSearchSharp } from 'react-icons/io5'
+import InformationBar from '../InformationBar'
 import { MdOutlineStackedLineChart } from 'react-icons/md'
 import { TbWorld } from 'react-icons/tb'
-import InformationBar from '../InformationBar'
 
 const SearchBarAndIcons = () => {
   return (

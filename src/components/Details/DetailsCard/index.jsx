@@ -1,6 +1,9 @@
 import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
-export default function DetailsCard({data}) {
+
+
+
+const DetailsCard = ({data}) => {
   return (
     <div className="">
       <a
@@ -71,3 +74,5 @@ export default function DetailsCard({data}) {
     </div>
   );
 }
+
+export default DetailsCard

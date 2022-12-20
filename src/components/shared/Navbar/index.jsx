@@ -1,11 +1,11 @@
+import { actionCreators } from "../../../states";
+import GeneralButton from "../GeneralButton";
 import { IoSearchSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import { MdOutlineLightMode } from "react-icons/md";
 import { TbMoon } from "react-icons/tb";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { actionCreators } from "../../../states";
-import GeneralButton from "../GeneralButton";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const theme = useSelector((state) => state.theme);
@@ -53,4 +53,5 @@ const Navbar = () => {
     </header>
   );
 };
+
 export default Navbar;
